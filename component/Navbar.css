@@ -1,0 +1,78 @@
+.custom-button {
+    color: #f8f9fa !important;
+    margin: 0 8px;
+    padding: 8px 14px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .custom-button:hover {
+    background-color: #0d6efd;
+    color: white !important;
+    text-decoration: none;
+  }
+  
+  .navbar-brand {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    margin-left: 10px;
+  }
+  
+  @media (max-width: 768px) {
+    .custom-button {
+      margin: 5px 0;
+      width: 100%;
+      text-align: center;
+    }
+  
+    .navbar-nav {
+      text-align: center;
+    }
+  }
+  /* c:\Users\USER\Desktop\react\novelhub\src\component\Navbar.css */
+
+.navbar-brand.text-warning {
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .navbar-brand.text-warning:hover {
+    color: #ffca2c !important; /* Slightly brighter yellow on hover */
+  }
+  
+  .custom-button {
+    padding: 0.5rem 0.8rem !important; /* Adjust padding for a button-like feel */
+    margin: 0.25rem 0.25rem; /* Add some space around each link */
+    border-radius: 0.3rem; /* Slightly rounded corners */
+    transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out, transform 0.2s ease-out;
+    display: inline-flex; /* Align icon and text nicely */
+    align-items: center;
+  }
+  
+  .custom-button:hover {
+    background-color: rgba(255, 255, 255, 0.15); /* Lighter background on hover */
+    color: #ffffff !important; /* Ensure text stays white or bright */
+    transform: translateY(-1px); /* Subtle lift effect */
+  }
+  
+  .custom-button .bi { /* Bootstrap icon class */
+    font-size: 1.1em; /* Slightly larger icon */
+    vertical-align: middle; /* Better alignment if not using flex */
+  }
+  
+  /* Example of specific link hover color if you want to override general hover */
+  /*
+  .custom-button.text-light:hover {
+    color: #0dcaf0 !important; /* Example: Hover to a cyan color 
+  }
+  */
+  
+  /* Responsive adjustments if needed */
+  @media (max-width: 991.98px) {
+    .custom-button {
+      margin: 0.5rem 0; /* Stack buttons nicely in collapsed menu */
+      display: block; /* Make them full width in collapsed menu */
+      text-align: left;
+    }
+  }
+  
+  
